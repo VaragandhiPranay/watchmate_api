@@ -1,0 +1,32 @@
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore compiled code
+*.o
+*.out
+*.class
+
+# Ignore IDE files (e.g., PyCharm)
+.idea/
+
+# Ignore any other specific files or directories
+secret_config.py
+.env
